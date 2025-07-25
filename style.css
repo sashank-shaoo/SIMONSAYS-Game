@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  border: 5px solid black;
+  margin: 1.2rem;
+  position: relative;
+}
+.box-container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.red {
+  background-color: rgb(207, 72, 72);
+}
+.yellow {
+  background-color: rgb(129, 129, 30);
+}
+.green {
+  background-color: rgb(18, 236, 131);
+}
+.purple {
+  background-color: rgb(182, 43, 182);
+}
+.flash {
+  background-color: white;
+}
+.userFlash {
+  background-color: yellow;
+}
+
+.highScore{
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  border: 2px solid aqua;
+  color: aqua;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
