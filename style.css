@@ -76,14 +76,16 @@ body {
   .box-container {
     height: auto;
     width: 100%;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
+    gap: 0.8rem;
+    justify-items: center;
   }
 
   .box {
     height: 100px;
     width: 100px;
     border-radius: 20px;
-    margin: 0.8rem;
   }
 
   .highScore {
