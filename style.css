@@ -37,7 +37,7 @@ body {
   background-color: yellow;
 }
 
-.highScore{
+.highScore {
   height: 40px;
   width: 150px;
   background-color: black;
@@ -48,4 +48,47 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Tablet screen (768px and below) */
+@media (max-width: 768px) {
+  .box-container {
+    height: auto;
+    width: 90%;
+  }
+
+  .box {
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    margin: 1rem;
+  }
+
+  .highScore {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile screen (480px and below) */
+@media (max-width: 480px) {
+  .box-container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .box {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 0.8rem;
+  }
+
+  .highScore {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
 }
