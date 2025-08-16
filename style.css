@@ -71,13 +71,12 @@ body {
   }
 }
 
-/* Mobile screen (480px and below) */
 @media (max-width: 480px) {
   .box-container {
     height: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
+    grid-template-columns: repeat(2, 1fr);
     gap: 0.8rem;
     justify-items: center;
   }
